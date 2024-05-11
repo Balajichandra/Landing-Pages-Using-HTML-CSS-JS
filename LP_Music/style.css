@@ -1,0 +1,110 @@
+/* 
+green:#07E67A;
+black:#455A64;
+*/
+*{
+    font-family: 'Exo 2',sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background: #f7f7f7;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    padding: 3rem;
+}
+header .logo img{
+    height: 5rem;
+}
+header  nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header  nav ul li{
+    margin: 0 3.6rem;/* import ant line for making space*/
+}
+header  nav ul li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color:#455A64;
+}
+header  nav ul li a:hover{
+    color:#07E67A;
+}
+.container{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container .image{
+    margin-top: -5rem;/* important line*/
+}
+.container img{
+    width: 40vw;
+}
+.container .content{
+    margin-top: 13rem;
+    width: 40vw;
+}
+.container .content h1{
+    font-size: 5rem;
+    color:#455A64
+}
+.container .content h3{
+    font-size: 2.3rem;
+    color: #07E67A;
+    margin: 1rem 0;
+}
+.container .content p{
+    font-size: 1.3rem;
+    color:#455A64
+}
+.container .content .buttons button{
+    height: 4rem;
+    width: 14rem;
+    background: #07E67A;
+    color:#455A64;
+    border-radius: 5rem;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 2rem 0;
+    border: none;
+}
+.container .content .buttons button:hover{
+    background: #455A64;
+    color:#07E67A;
+}
+.container .icons{
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+}
+.container .icons a{
+    text-decoration: none;
+    color:#455A64;
+    font-size: 2.7rem;
+}
+.container .icons a:hover{
+    color:#07E67A;
+}
+
