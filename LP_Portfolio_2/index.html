@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4d5a0ad120.js" crossorigin="anonymous"></script>
+    <script src="http://cdnjs.cloudflare.com.ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+</head>
+<body>
+<header>    
+    <nav>
+        <div class="logo">Portfolio</div>
+        <div class="menu">
+            <a href="#"><i class="fa fa-home"></i> Home</a>
+            <a href="#"><i class="fa fa-user"></i> About</a>
+            <a href="#"><i class="fa fa-book"></i> Portfolio</a>
+            <a href="#"><i class="fa fa-lock"></i> Gallery</a>
+            <a href="#"><i class="fa fa-phone"></i> Contact</a>
+        </div>
+    </nav>
+    <div class="s-icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+</header> 
+<script>
+    gsap.from('nav',{duration:2,x:'-100%'});
+    gsap.from('.menu',{duration:3,delay:'2',x:'0%',opacity:0})
+    gsap.from('.s-icon',{duration:2,y:'100%',delay:'3'})
+</script>   
+    <!--<i class="fa fa-facebook"></i>-->
+</body>
+</html>
